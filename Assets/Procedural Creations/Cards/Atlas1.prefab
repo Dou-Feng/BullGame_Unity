@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Atlas1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.6255026, y: 13.947761, z: 0.014923334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 4771ee4e0b9a1764fbeb67f1424e9e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShapeList:
+  - Id: Spade
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.62890625, y: 0.62597656}
+    Max: {x: 0.7451172, y: 0.74316406}
+  - Id: Heart
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.75390625, y: 0.44140625}
+    Max: {x: 0.87109375, y: 0.55859375}
+  - Id: Club
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.5, y: 0.62597656}
+    Max: {x: 0.6171875, y: 0.74316406}
+  - Id: Diamond
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.5, y: 0.7548828}
+    Max: {x: 0.6171875, y: 0.8720703}
+  - Id: H-Jack
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0, y: 0}
+    Max: {x: 0.24414062, y: 0.21484375}
+  - Id: H-Queen
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.24804688, y: 0}
+    Max: {x: 0.4921875, y: 0.21484375}
+  - Id: H-King
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.49609375, y: 0}
+    Max: {x: 0.7402344, y: 0.21484375}
+  - Id: D-Jack
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.7441406, y: 0}
+    Max: {x: 0.98828125, y: 0.21484375}
+  - Id: D-Queen
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0, y: 0.21875}
+    Max: {x: 0.24414062, y: 0.43359375}
+  - Id: D-King
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0, y: 0.4375}
+    Max: {x: 0.24414062, y: 0.65234375}
+  - Id: S-Jack
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0, y: 0.65625}
+    Max: {x: 0.24414062, y: 0.87109375}
+  - Id: S-Queen
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.24804688, y: 0.21875}
+    Max: {x: 0.4921875, y: 0.43359375}
+  - Id: S-King
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.49609375, y: 0.21875}
+    Max: {x: 0.7402344, y: 0.43359375}
+  - Id: C-Jack
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.7441406, y: 0.21875}
+    Max: {x: 0.98828125, y: 0.43359375}
+  - Id: C-Queen
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.24804688, y: 0.4375}
+    Max: {x: 0.4921875, y: 0.65234375}
+  - Id: C-King
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.24804688, y: 0.65625}
+    Max: {x: 0.4921875, y: 0.87109375}
+  - Id: Back
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.49804688, y: 0.43945312}
+    Max: {x: 0.7441406, y: 0.61621094}
+  - Id: 2
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.0029296875, y: 0.8779297}
+    Max: {x: 0.059570312, y: 0.9345703}
+  - Id: 3
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.06933594, y: 0.8779297}
+    Max: {x: 0.12597656, y: 0.9345703}
+  - Id: 4
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.13574219, y: 0.8779297}
+    Max: {x: 0.19238281, y: 0.9345703}
+  - Id: 5
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.25097656, y: 0.8779297}
+    Max: {x: 0.3076172, y: 0.9345703}
+  - Id: 6
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.3173828, y: 0.8779297}
+    Max: {x: 0.37402344, y: 0.9345703}
+  - Id: 7
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.38378906, y: 0.8779297}
+    Max: {x: 0.4404297, y: 0.9345703}
+  - Id: 8
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.88183594, y: 0.4404297}
+    Max: {x: 0.93847656, y: 0.4970703}
+  - Id: 9
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.88183594, y: 0.50683594}
+    Max: {x: 0.93847656, y: 0.56347656}
+  - Id: 10
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.49902344, y: 0.8828125}
+    Max: {x: 0.55566406, y: 0.9394531}
+  - Id: J
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.7558594, y: 0.625}
+    Max: {x: 0.8125, y: 0.6816406}
+  - Id: Q
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.8222656, y: 0.625}
+    Max: {x: 0.87890625, y: 0.6816406}
+  - Id: K
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.8886719, y: 0.625}
+    Max: {x: 0.9453125, y: 0.6816406}
+  - Id: A
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.6279297, y: 0.75390625}
+    Max: {x: 0.6845703, y: 0.8105469}
+  - Id: Paper
+    Image: {fileID: 2800000, guid: c0296c19e616f29479a7e6bd65ebc06e, type: 3}
+    Min: {x: 0.6328125, y: 0.8251953}
+    Max: {x: 0.6796875, y: 0.8720703}
